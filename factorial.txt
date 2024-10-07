@@ -1,0 +1,17 @@
+3 5
+fact_of:1 fact:0
+4 fact_of zero 39
+4 fact_of one 39
+7 fact_of sub_fact 
+7 fact_of fact
+4 fact_of one 42
+5 counter fact_of 43
+7 two counter
+2 fact_of one fact_of
+7 fact sub_fact
+3 19
+7 one fact 9
+1 fact sub_fact fact 
+1 counter one counter
+3 23
+zero:0 one:1 two:2 sub_fact:0 counter:2
