@@ -1,0 +1,88 @@
+3 st
+ip:0
+
+st:7 ip x
+7 x:0 ip_start_per
+start:7 read:ip op
+4 op one oneI
+4 op two twoI
+4 op three threeI
+4 op four fourI
+4 op five fiveI
+4 op seven sevenI
+4 op nine nineI 9
+
+oneI:1 read one f_add
+1 read two s_add
+1 read three t_add
+1 f_add:0 ip_start_per f_add 
+2 f_add one a1
+1 s_add:0 ip_start_per s_add 
+2 s_add one a2
+1 t_add:0 ip_start_per t_add 
+2 t_add one a3
+1 a1:0 a2:0 a3:0
+1 read four read
+3 start
+
+twoI:1 read one fi_add
+1 read two se_add
+1 read three th_add
+1 fi_add:0 ip_start_per fi_add 
+2 fi_add one b1
+1 se_add:0 ip_start_per se_add 
+2 se_add one b2
+1 th_add:0 ip_start_per th_add 
+2 th_add one b3
+2 b1:0 b2:0 b3:0
+1 read four read
+3 start
+
+threeI:1 read one jump_add
+1 ip_start_per jump_add:0 read
+2 read one read
+3 start
+
+fourI:1 read one fir_add
+1 read two sec_add
+1 read three thi_add
+1 fir_add:0 ip_start_per fir_add 
+2 fir_add one c1
+1 sec_add:0 ip_start_per sec_add 
+2 sec_add one c2
+1 thi_add:0 ip_start_per thi_add 
+2 thi_add one c3
+4 c1:0 c2:0 label1
+1 read four read
+3 start
+label1:7 c3 read
+3 start 
+
+fiveI:1 read one firs_add
+1 read two seco_add
+1 read three thir_add
+1 firs_add:0 ip_start_per firs_add 
+2 firs_add one d1
+1 seco_add:0 ip_start_per seco_add 
+2 seco_add one d2
+1 thir_add:0 ip_start_per thir_add 
+2 thir_add one d3
+4 d1:0 d2:0 label2
+1 read four read
+3 start
+label2:7 d3 read
+3 start 
+
+sevenI:1 read one first_add
+1 read two second_add
+1 first_add:0 ip_start_per first_add 
+2 first_add one g1
+1 second_add:0 ip_start_per second_add 
+2 second_add one g2
+7 g1:0 g2:0
+1 read three read
+3 start
+
+nineI:9
+
+zero:0 one:1 two:2 three:3 four:4 five:5 seven:7 nine:9 op:0 ip_start_per:0 c3:0 d3:0
