@@ -1,0 +1,12 @@
+3 5 number:5799 result:0
+7 number num
+div:5 num ten save_rem
+2 num ten num
+1 quo one quo
+3 div
+save_rem:1 result num result
+4 quo zero stop
+7 quo num 
+7 zero quo
+3 div
+stop:9 ten:10 one:1 quo:0 zero:0 num:0
