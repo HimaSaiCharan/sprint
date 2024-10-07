@@ -1,0 +1,24 @@
+3 5 fl:100 lenght:5
+7 lenght lenght1
+7 fl a
+1 fl lenght ll
+2 ll one ll
+7 ll b
+div:5 lenght1 two swap
+2 lenght1 two lenght1 
+1 quo one quo 
+3 div
+swap:5 count quo swapping 9
+swapping:7 a:0 temp
+7 a c
+7 b:0 c:0
+7 b d
+7 temp d:0
+1 a one a
+2 b one b
+1 count one count
+3 swap
+lenght1:0 two:2 one:1 quo:0 count:0 ll:0 temp:0
+0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 
+1 2 3 4 5
