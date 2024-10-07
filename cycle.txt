@@ -1,0 +1,19 @@
+3 7 sequence_location:58
+sequence_length:5 cycle_location:80 cycle_length:8
+7 sequence_location seq_loc 
+7 sequence_length seq_len
+7 cycle_location cyc_loc
+loop:4 cyc_len cycle_length halt
+4  seq_len sequence_length else
+7 seq_loc:0 cyc_loc:0
+1 seq_loc one seq_loc
+1 cyc_loc one cyc_loc
+1 seq_len one seq_len
+1 cyc_len one cyc_len
+3 loop
+else:7 sequence_location seq_loc
+7 zero seq_len 
+3 loop
+halt:9 zero:0 one:1 seq_len:0
+cyc_len:0
+1 2 3 4 5
