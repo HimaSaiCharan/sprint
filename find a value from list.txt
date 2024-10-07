@@ -1,0 +1,10 @@
+3 start first_element:54 lenght:5 target:2 result:0 
+start:7 first_element address
+loop:5 counter lenght 15 9
+4 address:0 target 29
+1 address 19 address
+1 counter 19 counter
+3 loop
+7 19 result 9
+counter:0 
+4 0 1 7 9
